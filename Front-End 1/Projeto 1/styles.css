@@ -1,0 +1,75 @@
+body
+{
+    background-image: url(./images/naturereal.jpg);
+    width: 100%;
+
+}
+
+header#cabecalho
+{
+    position: fixed;
+    top: 0;
+    padding: 25px 0;
+    width: 100%;
+    left: 0;
+    background-color: rgba(27, 27, 27, 0.9);
+    text-align: center;
+    color: rgba(248, 248, 248, 0.9);
+}
+
+header#cabecalho a
+{
+    text-decoration: none;
+    border: 2px solid rgba(128, 128, 128, 0.733);
+    border-radius: 13px;
+    padding: 7px;
+    font-size: 25px;
+    font-family: Karla, sans-serif;
+    color: inherit;
+}
+
+main div.bemvindo
+{
+    text-align: center;
+    font-family: Karla, sans-serif;
+    font-size: 60px;
+    margin-top: 200px;
+    color: rgb(29, 53, 39);
+    font-weight: bold;
+}
+
+main div.relax
+{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(80, 141, 98);
+}
+
+main div.texto
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+main img.zap
+{
+    position: fixed;
+    bottom: 2px;
+    right: 1px;
+    max-width:110px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+    
+}
+
+footer
+{
+    text-align: center;
+    background-color: gray; 
+    width: 100%;
+}
