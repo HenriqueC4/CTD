@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(../img/bg3.png) no-repeat;
+    background-size: cover;
+}
+
+form
+{
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 400px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(97, 31, 86);
+}
+
+div.textos
+{
+    margin: 20px 80px;
+}
+
+input
+{
+    width: 250px;
+    height: 45px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn
+{
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    background-image: linear-gradient(to right,#452171, #D67179, #FEC786);
+    width: 250px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}

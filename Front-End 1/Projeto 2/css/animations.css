@@ -1,0 +1,17 @@
+#form
+{
+    animation-name: slidein2;
+    animation-duration: 2s;
+}
+
+@keyframes slidein2
+{
+    from
+    {
+        margin-left: -50%;
+    }
+    to
+    {
+        margin-right: 50%;
+    }
+}
